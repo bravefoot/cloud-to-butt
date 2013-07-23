@@ -35,6 +35,8 @@ function handleText(textNode)
 	v = v.replace(/\bThe cloud\b/g, "Your butt");
 	v = v.replace(/\bthe Cloud\b/g, "your Butt");
 	v = v.replace(/\bthe cloud\b/g, "your butt");
+	v = v.replace(/\bcloud\b/g, "butt");
+	v = v.replace(/\bcloud\b/g, "Butt");
 	v = v.replace(/\b!\b/g), "! (that's what she said)");
 	
 	
